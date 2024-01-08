@@ -1,0 +1,161 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid #dedede;
+}
+
+.header-menu {
+    height: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.iyoutube {
+    height: 20px;
+}
+
+.ivoice,
+.iupload,
+.inot,
+.iprofile-pic,
+.iapps {
+    height: 25px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 8px;
+    padding: 5px 5px 5px 6px;
+}
+
+.ivoice {
+    background-color: #f7f7f7;
+}
+
+.iprofile-pic {
+    height: 32px;
+    cursor: pointer;
+}
+
+
+.header-left {
+
+    width: 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-middle {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+}
+
+.header-right {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.search-bar {
+    flex: 1;
+    height: 25px;
+    width: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 10px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    box-shadow: 0px 0px 2px 0px gray;
+
+}
+
+
+.isearch {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 70px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    box-shadow: 0px 0px 2px 0px gray;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.isearch .tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 8px 4px 8px 4px;
+    border-radius: 2px;
+    bottom: -35px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    font-size: 12px;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.isearch:hover .tooltip {
+    opacity: 1;
+}
+
+.notifications-icon-container {
+    position: relative;
+}
+
+.notifications-count {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    background-color: #cc0000;
+    color: white;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 1px;
+}
+
+.upload-icon-container,
+.iapps-icon-container,
+.notifications-icon-container {
+    position: relative;
+}
+
+.upload-icon-container .tooltip,
+.iapps-icon-container .tooltip,
+.notifications-icon-container .tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 8px 4px 8px 4px;
+    border-radius: 2px;
+    bottom: -35px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    font-size: 12px;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.upload-icon-container:hover .tooltip,
+.iapps-icon-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip {
+    opacity: 1;
+}

@@ -1,0 +1,98 @@
+.thumbnail-1 {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* this is for main grid*/
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+@media(max-width:869px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:870px) and (max-width:1124px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (min-width:1125px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* this is for element grid of video preview*/
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+}
+
+/* this is for small img in .video-preview */
+.channel-1 {
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 5px;
+
+}
+
+/* Styles thumbnail row & video Timer*/
+.thumbnail-row {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.thumbnail-timer {
+    position: absolute;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    right: 4px;
+    bottom: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 4px 4px 4px;
+    border-radius: 2px;
+}
+
+.video-title {
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+
+}
+
+.video-info {
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.video-author,
+.video-stats {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+.video-author {
+    margin-bottom: 5px;
+}
