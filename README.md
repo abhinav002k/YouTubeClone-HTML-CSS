@@ -29,8 +29,6 @@ This project is a simple YouTube clone implemented using HTML and CSS, showcasin
   - Recommended videos section
   - Basic layout with CSS
 
-- **Footer:**
-  - Simple footer with links
 
 ## Technologies Used
 
@@ -47,7 +45,7 @@ This project is a simple YouTube clone implemented using HTML and CSS, showcasin
     git clone https://github.com/your-username/youtube-clone.git
     ```
 
-2. Open the `index.html` file in your preferred browser.
+2. Open the `youtube.html` file in your preferred browser.
 
 ## Additional Notes
 
@@ -61,7 +59,3 @@ If you'd like to contribute to the project, please fork the repository and submi
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Replace "your-username" with your actual GitHub username and make any necessary adjustments based on your project's specifics. Additionally, if you choose a different open-source license, update the "License" section accordingly.
